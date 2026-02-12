@@ -191,7 +191,81 @@
     margin-bottom: 128px;
 }
 
+.latest-deal {
+    background-image: url('../Assets/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+
+    padding: 122px 287px;
+    margin-bottom: 128px;
+}
+.latest-deal__title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.latest-deal__input {
+    display: flex;
+    gap: 16px;
+}
+
+.latest-deal__input--email {
+    width: 700px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 20px;
+}
+
+.footer {
+    background: #111010;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content {
+    width: 43%;
+    max-width: 625px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    padding: 128px 0;
+}
+
+.footer__title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.footer__title--flower {
+    font-size: 48px;
+    font-weight: 800;
+    color: #E55473;
+}
+
+.footer__title--shop {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.footer__text {
+    color: #FFFFFF;
+}
+.footer__copyright {
+    color: rgba(255, 255, 255, 0.4);
+}
 
 
 
@@ -200,7 +274,7 @@
 /* mobile responsive design  */
 @media screen and (max-width: 576px) {
   .header__title {
-    font-size: 30px;
+    font-size: 30;
   }
   .header-container {
     flex-direction: column;
